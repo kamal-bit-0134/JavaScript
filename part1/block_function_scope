@@ -1,0 +1,39 @@
+/*
+// block scope vs function scope
+// and const are block scope
+// var is function scope
+*/
+
+/*
+funtion toremoveblock()
+{   let firstName = "kamal";
+    const firstName = "kamal";
+    var firstName = "Kamal"
+}
+*/
+/*
+// console.log(firstNane) ;
+
+// {
+//     var firstName = "Harshit";
+// }
+
+// console.log(firstName) ;
+
+// if(true){
+//     var firstName = "har";
+//     console.log(firstName);
+// }
+
+// console.log(firstName)
+
+function myApp(){
+    if(true){
+        var firstName = "har";
+        console.log(firstName);
+    }
+    console.log(firstName);
+}
+
+myApp();
+*/
